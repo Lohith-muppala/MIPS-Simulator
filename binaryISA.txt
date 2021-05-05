@@ -1,0 +1,28 @@
+
+addi $1, 0xFA #sets the B value
+addi $2, 0X01 #sets the A value
+Hash $1, $2 # hash would start from A = 1 and do the steps storing the value in mem till A = 225
+Match, 0x04, x0 
+Match, 0x04, x1
+Match, 0x04, x2
+Match, 0x04, x3
+
+------------------------------------------------------------
+Opcode
+*001 - ADDI EX: 001(op) 00(rt) 0000(imm)
+*010 - SW   EX: 010(op) 00(rt) 0000(mem loc) 
+*001 - lw   EX: 010(op) 00(rt) 0000(mem loc)
+*011 - HASH (special instruct) EX: 011(op) 00(r1) 00(r2) 0(dc)
+*100 - Match (special instruct) EX: 100(op) 100(start loc) 00(compare/mem store)
+*1111 1111 HALT (end prog)
+----------------------------------------------------------------
+BINARY 
+
+1)
+2)
+3)011 01 10 0(dc)
+4)100 100 00
+5)100 100 01
+6)100 100 10
+7)100 100 11
+-------------------------------------------------------

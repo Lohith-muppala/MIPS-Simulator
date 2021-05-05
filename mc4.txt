@@ -1,0 +1,776 @@
+0x66 #Our ISA is hardcoded to take the first line as B into register 2 
+0x91 # setting A = 1
+0xB4  #adding 4 to the $3 (mem location stored in register as imm)
+
+#hardcoded the hash FUNCTION 255 times
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+0x91 # incrementing A
+0xB1 #incrementing $3 to store in memory
+0xDB #HASH FUNCTION SPL INSTRUCTION
+
+0x94 # incrementing A
+0x01 #label
+0x58 #load
+0x20 #match
+0x9F # decrement A 
+0XC5 # bnz
+0x80
